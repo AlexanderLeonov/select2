@@ -24,6 +24,8 @@ define([
         var ret;
         var args = Array.prototype.slice.call(arguments, 1);
 
+        var args = Array.prototype.slice.call(arguments, 1);
+
         this.each(function () {
           var instance = $(this).data('select2');
 

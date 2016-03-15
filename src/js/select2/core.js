@@ -325,6 +325,7 @@ define([
           self.close();
 
           evt.preventDefault();
+          evt.stopPropagation();
         } else if (key === KEYS.ENTER) {
           self.trigger('results:select', {});
 
